@@ -86,6 +86,11 @@ public class MainActivity extends AppCompatActivity
             Intent lector_json = new Intent(this, JsonActivity.class);
             startActivity(lector_json);
 
+        }else if (id == R.id.nav_camera) {
+            // Handle the camera action
+            Intent lector_camara = new Intent(this, CameraActivity.class);
+            startActivity(lector_camara);
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
